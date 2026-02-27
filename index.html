@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>HCl Restaurant - Italy</title>
+
+<style>
+body {
+  font-family: Arial, sans-serif;
+  background-color: #111;
+  color: white;
+  text-align: center;
+}
+
+header {
+  background: black;
+  padding: 20px;
+}
+
+h1 {
+  color: gold;
+}
+
+form {
+  background: #222;
+  padding: 20px;
+  width: 300px;
+  margin: auto;
+  border-radius: 10px;
+}
+
+input, select, button {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+}
+
+button {
+  background-color: gold;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: orange;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+<h1>HCl Restaurant - Italy</h1>
+<p>We Are Hiring - Apply Now</p>
+</header>
+
+<br>
+
+<form action="https://formspree.io/f/xykdozek" method="POST">
+
+<input type="hidden" name="_subject" value="New Job Application - HCl Restaurant">
+<input type="hidden" name="_next" value="thankyou.html">
+
+<label>Full Name</label>
+<input type="text" name="full_name" required>
+
+<label>Country</label>
+<input type="text" name="country" required>
+
+<label>Phone (With Country Code)</label>
+<input type="text" name="phone" required>
+
+<label>Email</label>
+<input type="email" name="email" required>
+
+<label>Position Applied For</label>
+<select name="position" required>
+  <option value="Chef">Chef</option>
+  <option value="Assistant Chef">Assistant Chef</option>
+  <option value="Waiter">Waiter / Waitress</option>
+  <option value="Kitchen Helper">Kitchen Helper</option>
+  <option value="Cleaner">Cleaner</option>
+  <option value="Cashier">Cashier</option>
+  <option value="Delivery Staff">Delivery Staff</option>
+</select>
+
+<label>Passport Number</label>
+<input type="text" name="passport">
+
+<label>National ID Number</label>
+<input type="text" name="nid">
+
+<br><br>
+
+<button type="submit">Submit Application</button>
+
+</form>
+
+</body>
+</html>
